@@ -3,7 +3,7 @@ import { fakeFetch } from "../../utils/fetch"
 import { SuccessResponse } from "../../utils/types"
 import { InputCheckbox } from "../InputCheckbox"
 import { TransactionPaneComponent } from "./types"
-
+//Lahari Devaraju
 export const TransactionPane: TransactionPaneComponent = ({ transaction }) => {
   const [approved, setApproved] = useState(transaction.approved)
 
